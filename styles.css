@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+body {
+    /* google font: roboto */
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+.post {
+    background: white;
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.header-post, .footer-post {
+    
+    padding: 15px;
+    padding-bottom: 0px;
+    
+}
+
+.img-post img {
+    
+    width: 100%;
+}
+
+
+.aligner-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aligner-left, .aligner-right {
+    display: inline-block;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-icon {
+    width: 30px;
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer-post p {
+    padding: 25px 0 0 0;
+}
